@@ -1,0 +1,21 @@
+syntax on
+set scrolloff=5
+set listchars=eol:$,tab:>~,trail:~,extends:>,precedes:< 
+set list
+set tabstop=4
+set noautochdir
+set incsearch
+set smartcase
+set ignorecase
+set sidescrolloff=5
+set cursorline
+set number
+set laststatus=2
+set statusline=[%n]\ %10F%m\ %y\ [%{&ff}]\ \ %=\ %l/%L\ [%c]\ %p%%
+set autoread
+colorscheme elflord
+set nobackup
+set expandtab
+set smartindent
+set hidden
+set smarttab
