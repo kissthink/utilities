@@ -26,6 +26,7 @@ set smartindent
 set hidden
 set smarttab
 set background=light
+colorscheme solarized
 "Convert 4 spaces to tabs when reading
 autocmd! bufreadpost * set noexpandtab | retab! 4
 "Convert tabs to 4 spaces when writing
