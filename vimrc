@@ -3,7 +3,7 @@ syntax on
 set encoding=utf-8
 set scrolloff=5
 set sidescrolloff=5
-set listchars=eol:‡,tab:¦·,trail:~,extends:»,precedes:«
+set listchars=eol:‡,tab:¦·,trail:·,extends:»,precedes:«
 set backspace=indent,eol,start
 set list
 set tabstop=4 "One tab equal to 4 spaces
