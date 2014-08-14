@@ -37,4 +37,4 @@ autocmd! bufwritepost * set noexpandtab | retab! 4
 autocmd! bufwritepre * :%s/\s\+$//e
 filetype plugin indent on
 set nowrap
-
+set title
