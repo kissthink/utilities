@@ -25,7 +25,11 @@ set confirm "Do not fail a command. Ask the user
 set smartindent
 set hidden
 set smarttab
-set background=light
+if &term=~'linux'
+	set background=dark
+else
+	set background=light
+endif
 colorscheme solarized
 "Convert 4 spaces to tabs when reading
 autocmd! bufreadpost * set noexpandtab | retab! 4
@@ -38,3 +42,9 @@ autocmd! bufwritepre * :%s/\s\+$//e
 filetype plugin indent on
 set nowrap
 set title
+if has('gui')
+	set guioptions-=m
+	set guioptions-=L
+	set guioptions-=r
+	set guioptions-=T
+endif
